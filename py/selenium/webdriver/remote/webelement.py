@@ -25,7 +25,6 @@ from base64 import b64decode
 from base64 import encodebytes
 from hashlib import md5 as md5_hash
 from io import BytesIO
-from typing import List
 
 from selenium.common.exceptions import JavascriptException
 from selenium.common.exceptions import WebDriverException
