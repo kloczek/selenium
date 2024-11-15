@@ -402,11 +402,11 @@ def firefox_version_data():
 
 
 def firefox_linux(version):
-    return "https://ftp.mozilla.org/pub/firefox/releases/{}/linux-x86_64/en-US/firefox-{}.tar.bz2".format(version, version)
+    return f"https://ftp.mozilla.org/pub/firefox/releases/{version}/linux-x86_64/en-US/firefox-{version}.tar.bz2"
 
 
 def firefox_mac(version):
-    return "https://ftp.mozilla.org/pub/firefox/releases/{}/mac/en-US/Firefox%20{}.dmg".format(version, version)
+    return f"https://ftp.mozilla.org/pub/firefox/releases/{version}/mac/en-US/Firefox%20{version}.dmg"
 
 
 def print_firefox(version, workspace_name, sha_linux, sha_mac):
